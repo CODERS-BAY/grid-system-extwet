@@ -1,0 +1,121 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+h2 {
+    color: darkred;
+    margin-top: auto;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: darkred;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.secImgText > h2 {
+color: white;
+text-transform: uppercase;
+text-align: center;
+font-size: 40px;
+text-shadow: 5px 5px 5px black;
+
+}
+    
+    
+
+#mainImage {
+    align-items: center;
+    background-image: url(../images/frontpage.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 60vh;
+}
+#secondImage {
+    align-items: center;
+    background-image: url(../images/hintergrund.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 60vh;
+}
+
+
+header {
+    align-items: center;
+    background-color: rgb(71, 6, 6);
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    padding: 15px 80px 20px 80px;
+    position: relative;
+    z-index: 10;
+}
+
+header > a { 
+    display: block;
+    height: 80px;
+    font-style: uppercase;
+    
+}
+.menu {
+    align-items: center;
+    display: flex;
+    
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.buttonBox > div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.button {
+        align-items: center;
+        background-color: rgb(82, 10, 10);
+        color:white;
+        display: table;             /*mit display kann margin verwendetwerden, weil inline element ist*/
+        margin-top: 40px;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+
+footer {
+        background-color: rgb(78, 33, 33);
+    
+    }
+ footer .menu li a {
+        display: flex;
+            color: white;
+            justify-content: flex-start;
+            margin-right: 20px;
+    }
+    footer .menu > p {
+        display: flex;
+        color: white;
+        justify-content: flex-end;
+}
+
